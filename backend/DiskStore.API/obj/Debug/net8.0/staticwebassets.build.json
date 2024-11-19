@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Vm1dQrziWHizLiOfdbtAgxlrVFCvqVRU6SMHdQcqHCk=",
+  "Source": "DiskStore.API",
+  "BasePath": "_content/DiskStore.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
