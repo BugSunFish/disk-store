@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TlxQuJEMpW4EH2OJJaG1CK4XFEZ5HrBkTFkonE0qTVU=",
+  "Source": "DiskStore",
+  "BasePath": "_content/DiskStore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
