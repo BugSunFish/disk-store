@@ -53,7 +53,7 @@ namespace DiskStore.Migrations
 
                     b.HasIndex("PublisherId");
 
-                    b.ToTable("Disk");
+                    b.ToTable("Disks");
                 });
 
             modelBuilder.Entity("DiskStore.Models.User", b =>

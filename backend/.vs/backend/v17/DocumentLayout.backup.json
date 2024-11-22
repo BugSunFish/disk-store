@@ -3,40 +3,52 @@
   "WorkspaceRootPath": "C:\\Projects\\C#\\web\\disk-store\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\models\\disk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\models\\disk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\controllers\\diskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\controllers\\diskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\contracts\\diskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\contracts\\diskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\contracts\\diskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\contracts\\diskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\contracts\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\contracts\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\contracts\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\contracts\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\contracts\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\contracts\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\contracts\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\contracts\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\models\\disk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\models\\disk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\contracts\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|solutionrelative:diskstore\\contracts\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E95FF36-2245-42CB-9FFD-E2141DF2F683}|DiskStore\\DiskStore.csproj|c:\\projects\\c#\\web\\disk-store\\backend\\diskstore\\securepasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -56,24 +68,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 214,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DiskRequest.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Contracts\\DiskRequest.cs",
+              "RelativeDocumentMoniker": "DiskStore\\Contracts\\DiskRequest.cs",
+              "ToolTip": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Contracts\\DiskRequest.cs",
+              "RelativeToolTip": "DiskStore\\Contracts\\DiskRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:42:16.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DiskDTO.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Contracts\\DiskDTO.cs",
+              "RelativeDocumentMoniker": "DiskStore\\Contracts\\DiskDTO.cs",
+              "ToolTip": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Contracts\\DiskDTO.cs",
+              "RelativeToolTip": "DiskStore\\Contracts\\DiskDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:38:01.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DiskController.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Controllers\\DiskController.cs",
+              "RelativeDocumentMoniker": "DiskStore\\Controllers\\DiskController.cs",
+              "ToolTip": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Controllers\\DiskController.cs",
+              "RelativeToolTip": "DiskStore\\Controllers\\DiskController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswDEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:42:57.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "DiskStore\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Controllers\\UserController.cs",
               "RelativeToolTip": "DiskStore\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T11:21:06.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DiskStore\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DiskStore\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwE8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:20:30.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UserRegistration.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Contracts\\UserRegistration.cs",
               "RelativeDocumentMoniker": "DiskStore\\Contracts\\UserRegistration.cs",
@@ -86,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "UserLogin.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Contracts\\UserLogin.cs",
               "RelativeDocumentMoniker": "DiskStore\\Contracts\\UserLogin.cs",
@@ -99,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AuthOptions.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\AuthOptions.cs",
               "RelativeDocumentMoniker": "DiskStore\\AuthOptions.cs",
@@ -112,20 +176,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Program.cs",
               "RelativeDocumentMoniker": "DiskStore\\Program.cs",
               "ToolTip": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Program.cs",
               "RelativeToolTip": "DiskStore\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T11:20:37.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "SecurePasswordHasher.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\SecurePasswordHasher.cs",
               "RelativeDocumentMoniker": "DiskStore\\SecurePasswordHasher.cs",
@@ -138,20 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "DiskStore\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "DiskStore\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAwCoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:20:30.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Contracts\\UserDTO.cs",
               "RelativeDocumentMoniker": "DiskStore\\Contracts\\UserDTO.cs",
@@ -164,33 +215,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Models\\User.cs",
               "RelativeDocumentMoniker": "DiskStore\\Models\\User.cs",
               "ToolTip": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Models\\User.cs",
               "RelativeToolTip": "DiskStore\\Models\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T11:01:46.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Disk.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Models\\Disk.cs",
               "RelativeDocumentMoniker": "DiskStore\\Models\\Disk.cs",
               "ToolTip": "C:\\Projects\\C#\\web\\disk-store\\backend\\DiskStore\\Models\\Disk.cs",
               "RelativeToolTip": "DiskStore\\Models\\Disk.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T10:48:37.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\informatic\\source\\repos\\backend\\DiskStore.API\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\informatic\\source\\repos\\backend\\DiskStore.API\\Program.cs",
@@ -198,11 +249,12 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\informatic\\source\\repos\\backend\\DiskStore.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T18:38:53.048Z"
+              "WhenOpened": "2024-11-19T18:38:53.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "DiskStoreDbContext.cs",
               "DocumentMoniker": "C:\\Users\\informatic\\source\\repos\\backend\\DiskStore.API\\Data\\DiskStoreDbContext.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\informatic\\source\\repos\\backend\\DiskStore.API\\Data\\DiskStoreDbContext.cs",
@@ -210,7 +262,8 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\informatic\\source\\repos\\backend\\DiskStore.API\\Data\\DiskStoreDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T18:35:28.942Z"
+              "WhenOpened": "2024-11-19T18:35:28.942Z",
+              "EditorCaption": ""
             }
           ]
         }

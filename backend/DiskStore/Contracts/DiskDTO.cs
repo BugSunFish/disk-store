@@ -1,14 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Security.Policy;
+﻿using DiskStore.Models;
+using System.ComponentModel.DataAnnotations;
 
-namespace DiskStore.Models
+namespace DiskStore.Contracts
 {
-    public class Disk
+    public class DiskDTO
     {
-        [Key]
-        public Guid Id { get; set; }
-
         [Required]
         public string Title { get; set; }
 
@@ -24,9 +20,7 @@ namespace DiskStore.Models
         [Required]
         public DateTime Updated { get; set; }
 
-        [ForeignKey("User")]
+        [Required]
         public Guid PublisherId { get; set; }
-        public virtual User Publisher { get; set; }
-
     }
 }

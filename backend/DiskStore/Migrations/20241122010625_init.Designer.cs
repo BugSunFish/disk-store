@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DiskStore.Migrations
 {
     [DbContext(typeof(DiskStoreDbContext))]
-    [Migration("20241120113646_init")]
+    [Migration("20241122010625_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -56,7 +56,7 @@ namespace DiskStore.Migrations
 
                     b.HasIndex("PublisherId");
 
-                    b.ToTable("Disk");
+                    b.ToTable("Disks");
                 });
 
             modelBuilder.Entity("DiskStore.Models.User", b =>

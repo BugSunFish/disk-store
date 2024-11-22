@@ -2,7 +2,7 @@
 
 namespace DiskStore.Models
 {
-    public class User
+    public class User 
     {
         [Key]
         public Guid Id { get; set; }

@@ -64,7 +64,7 @@ namespace DiskStore.Controllers
                     if (SecurePasswordHasher.Hash(password) != user.PasswordHash)
                         return BadRequest("Password is not corrected");
 
-                    var claims = new List<Claim> { new Claim(ClaimTypes.Name, name), new Claim(ClaimTypes.Email, user.Email) };
+                    var claims = new List<Claim> { new Claim(ClaimTypes.UserData, user.Id.ToString()), new Claim(ClaimTypes.Name, name) };
                     var jwt = new JwtSecurityToken(
                         issuer: AuthOptions.ISSUER,
                         audience: AuthOptions.AUDIENCE,

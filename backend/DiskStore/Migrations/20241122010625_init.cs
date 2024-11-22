@@ -28,7 +28,7 @@ namespace DiskStore.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Disk",
+                name: "Disks",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
@@ -41,9 +41,9 @@ namespace DiskStore.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Disk", x => x.Id);
+                    table.PrimaryKey("PK_Disks", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Disk_Users_PublisherId",
+                        name: "FK_Disks_Users_PublisherId",
                         column: x => x.PublisherId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -51,8 +51,8 @@ namespace DiskStore.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Disk_PublisherId",
-                table: "Disk",
+                name: "IX_Disks_PublisherId",
+                table: "Disks",
                 column: "PublisherId");
         }
 
@@ -60,7 +60,7 @@ namespace DiskStore.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Disk");
+                name: "Disks");
 
             migrationBuilder.DropTable(
                 name: "Users");
