@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiskStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66bba0b1f2b08c66c5e74e67f1433dc953fd6f5d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8242781b98779b9bafafad8dfa86388bd42fd07b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiskStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiskStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

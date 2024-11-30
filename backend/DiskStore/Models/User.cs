@@ -23,5 +23,10 @@ namespace DiskStore.Models
 
         public List<Disk> PostedDisks { get; set; }
 
+        public User()
+        {
+            PostedDisks = new List<Disk>();
+        }
+
     }
 }

@@ -24,9 +24,8 @@ namespace DiskStore.Models
         [Required]
         public DateTime Updated { get; set; }
 
-        [ForeignKey("User")]
         public Guid PublisherId { get; set; }
-        public virtual User Publisher { get; set; }
+        public User Publisher { get; set; }
 
     }
 }
