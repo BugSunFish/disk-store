@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "DiskStore.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "Auth/log",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "DiskStore.Contracts.Auth.UserLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DiskStore.Controllers.AuthController",
+    "Method": "Registrate",
+    "RelativePath": "Auth/reg",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "DiskStore.Contracts.Auth.UserRegistrate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DiskStore.Controllers.DisksController",
     "Method": "Get",
     "RelativePath": "Disks",
@@ -9,7 +41,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[DiskStore.Models.Disk, DiskStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DiskStore.Contracts.Disks.DiskFullDto, DiskStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -20,35 +52,39 @@
     ]
   },
   {
-    "ContainingType": "DiskStore.Controllers.AuthController",
-    "Method": "Login",
-    "RelativePath": "log",
+    "ContainingType": "DiskStore.Controllers.DisksController",
+    "Method": "Post",
+    "RelativePath": "Disks",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "data",
-        "Type": "DiskStore.Contracts.UserLogin",
+        "Type": "DiskStore.Contracts.DiskCreate",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DiskStore.Controllers.AuthController",
-    "Method": "Registrate",
-    "RelativePath": "reg",
-    "HttpMethod": "POST",
+    "ContainingType": "DiskStore.Controllers.UsersController",
+    "Method": "Get",
+    "RelativePath": "Users",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
+    "Parameters": [],
+    "ReturnTypes": [
       {
-        "Name": "data",
-        "Type": "DiskStore.Contracts.UserRegistrate",
-        "IsRequired": true
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DiskStore.Contracts.Users.UserFullDto, DiskStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
       }
-    ],
-    "ReturnTypes": []
+    ]
   }
 ]

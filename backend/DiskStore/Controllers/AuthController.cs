@@ -1,4 +1,4 @@
-﻿using DiskStore.Contracts;
+﻿using DiskStore.Contracts.Auth;
 using DiskStore.Data;
 using DiskStore.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -19,7 +19,7 @@ namespace DiskStore.Controllers
             _db = db;
         }
 
-        [HttpPost("/reg")]
+        [HttpPost("reg")]
         public async Task<IResult> Registrate([FromBody] UserRegistrate data)
         {
             if (!ModelState.IsValid)
@@ -41,7 +41,7 @@ namespace DiskStore.Controllers
             return TypedResults.Ok("Registration was successful");
         }
 
-        [HttpPost("/log")]
+        [HttpPost("log")]
         public async Task<IResult> Login([FromBody] UserLogin data)
         {
             if (!ModelState.IsValid)

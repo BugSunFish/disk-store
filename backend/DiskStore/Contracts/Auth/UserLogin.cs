@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DiskStore.Contracts
+namespace DiskStore.Contracts.Auth
 {
     public class UserLogin
     {

@@ -37,23 +37,23 @@ namespace DiskStore.Migrations
                     Author = table.Column<string>(type: "text", nullable: false),
                     Created = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Updated = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    PublisherId = table.Column<Guid>(type: "uuid", nullable: false)
+                    UserId = table.Column<Guid>(type: "uuid", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Disks", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Disks_Users_PublisherId",
-                        column: x => x.PublisherId,
+                        name: "FK_Disks_Users_UserId",
+                        column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Disks_PublisherId",
+                name: "IX_Disks_UserId",
                 table: "Disks",
-                column: "PublisherId");
+                column: "UserId");
         }
 
         /// <inheritdoc />

@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DiskStore.Migrations
 {
     [DbContext(typeof(DiskStoreDbContext))]
-    [Migration("20241129233532_init")]
+    [Migration("20241201020049_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -42,9 +42,6 @@ namespace DiskStore.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<Guid>("PublisherId")
-                        .HasColumnType("uuid");
-
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("text");
@@ -52,9 +49,12 @@ namespace DiskStore.Migrations
                     b.Property<DateTime>("Updated")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("PublisherId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Disks");
                 });
@@ -90,18 +90,18 @@ namespace DiskStore.Migrations
 
             modelBuilder.Entity("DiskStore.Models.Disk", b =>
                 {
-                    b.HasOne("DiskStore.Models.User", "Publisher")
-                        .WithMany("PostedDisks")
-                        .HasForeignKey("PublisherId")
+                    b.HasOne("DiskStore.Models.User", "User")
+                        .WithMany("Disks")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Publisher");
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("DiskStore.Models.User", b =>
                 {
-                    b.Navigation("PostedDisks");
+                    b.Navigation("Disks");
                 });
 #pragma warning restore 612, 618
         }

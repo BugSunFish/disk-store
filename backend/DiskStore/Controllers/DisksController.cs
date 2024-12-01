@@ -1,15 +1,18 @@
 ﻿using DiskStore.Contracts;
+using DiskStore.Contracts.Disks;
+using DiskStore.Contracts.Users;
 using DiskStore.Data;
 using DiskStore.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
 namespace DiskStore.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class DisksController : ControllerBase    
+    public class DisksController : ControllerBase
     {
         private readonly DiskStoreDbContext _db;
         public DisksController(DiskStoreDbContext db)
@@ -18,9 +21,29 @@ namespace DiskStore.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Disk>> Get()
+        public async Task<IEnumerable<DiskFullDto>> Get()
         {
-            return _db.Disks.ToList();
+
+            return await _db.Disks
+                .Include(u => u.User)
+                .Select(d => new DiskFullDto
+                {
+                    Id = d.Id,
+                    Title = d.Title,
+                    Description = d.Description,
+                    Author = d.Author,
+                    Created = d.Created,
+                    Updated = d.Updated,
+                    User =  new UserDto
+                    {
+                        Id = d.User.Id,
+                        Name = d.User.Name,
+                        Email = d.User.Email,
+                        Created = d.User.Created,
+                        Updated = d.User.Updated,
+                    }
+                })
+                .ToListAsync();
         }
 
         [HttpPost]
@@ -38,17 +61,16 @@ namespace DiskStore.Controllers
                     Description = data.Description,
                     Author = data.Author,
                     Created = DateTime.UtcNow,
-                    PublisherId = userId,
-                    Publisher = user,
+                    User = user,
                 };
-                user.PostedDisks.Add(disk);
+                user.Disks.Add(disk);
                 _db.Disks.Add(disk);
+                _db.SaveChanges();
 
                 return TypedResults.Ok("Disk was created");
             }
 
             return TypedResults.BadRequest("User is not found");
-            
         }
     }
 }

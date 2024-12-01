@@ -21,12 +21,7 @@ namespace DiskStore.Models
 
         public DateTime Updated { get; set; }
 
-        public List<Disk> PostedDisks { get; set; }
-
-        public User()
-        {
-            PostedDisks = new List<Disk>();
-        }
+        public ICollection<Disk> Disks { get; set; } = new List<Disk>();
 
     }
 }
